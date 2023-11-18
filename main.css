@@ -26,15 +26,16 @@ a:focus, a:hover {
 body {
 	line-height: 135%;
 	text-align: left;
+
 }
 
 code {
-	font-style: italic;
-	
+	font-style: italic; 
 }
 
 h1, h2, h3 {
 	margin-bottom: 1em;
+	font-weight: 300;
 }
 
 h1 {
@@ -52,11 +53,10 @@ font-size: 20px;
 
 header {
 	text-align: center;
-	
 }
 
 main {
-
+ text-indent: 1em;
 }
 
 p {
@@ -65,10 +65,9 @@ margin-bottom: 1em;
 }
 
 #intro {
-
+	text-align: justify;
 }
 
 #how-does-it-work, #influence, #joke {
-
-	font-style: italic;
+	text-align: justify;
 }
